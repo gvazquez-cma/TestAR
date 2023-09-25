@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR test</title>
-    <!--<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>-->
-    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AR test</title>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
 </head>
 <body>
-    <a-scene>
-        <a-marker type="pattern" preset="custom" url="TestAR/Amarker/pattern-qr-code.patt">
-            <a-sphere radius="5" color="blue"></a-sphere>
-        </a-marker>
-                
-        <!-- <a-entity camera="active: true" position="0 0 0"></a-entity> -->
-
-    </a-scene>
-    
+<a-scene>
+<a-marker type="pattern" preset="custom" url="TestAR/Amarker/pattern-qr-code.patt">
+<a-sphere radius="5" color="blue"></a-sphere>
+</a-marker>
+<a-entity camera="active: true"></a-entity>
+</a-scene>
 </body>
 </html>
