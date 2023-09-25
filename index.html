@@ -10,11 +10,10 @@
 </head>
 <body>
     <a-scene>
-        <a-marker preset= "hiro">
-            <a-entity position="0 0 0">
-                <a-sphere radius="5" color="blue"></a-sphere>
-            </a-entity>
+        <a-marker type="pattern" preset="custom" url="TestAR/Amarker/pattern-qr-code.patt">
+            <a-sphere radius="5" color="blue"></a-sphere>
         </a-marker>
+                
         <!-- <a-entity camera="active: true" position="0 0 0"></a-entity> -->
 
     </a-scene>
